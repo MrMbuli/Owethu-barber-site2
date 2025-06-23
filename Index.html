@@ -1,0 +1,33 @@
+<section class="section" id="contact">
+  <h2>Contact Me</h2>
+  <p>
+    Ready for your next cut? Book below and I’ll get back to you!
+  </p>
+
+  <form action="https://formsubmit.co/owethuandrew10@gmail.com" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Booking from Website">
+
+    <label for="name">Full Name:</label><br />
+    <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin-bottom: 10px;"><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 10px;"><br />
+
+    <label for="phone">Phone Number:</label><br />
+    <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 10px; margin-bottom: 10px;"><br />
+
+    <label for="day">Preferred Day:</label><br />
+    <select id="day" name="preferred_day" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+      <option value="">-- Select --</option>
+      <option value="Monday">Monday</option>
+      <option value="Tuesday">Tuesday</option>
+      <option value="Wednesday">Wednesday</option>
+    </select><br />
+
+    <label for="message">Message (Optional):</label><br />
+    <textarea id="message" name="message" rows="4" style="width: 100%; padding: 10px;"></textarea><br />
+
+    <button type="submit" class="btn">Submit Booking</button>
+  </form>
+</section>
